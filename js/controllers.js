@@ -1,7 +1,7 @@
-app.controller('TemplateController', [TemplateController]);
+app.controller('directiveController', [directiveController]);
 // Change Me
 
-function TemplateController() {
+function directiveController() {
   var vm = this;
-  vm.title = 'Angular Template'
+  vm.title = 'Angular Template';
 }
